@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@farcaster/core':
+    specifier: ^0.13.8
+    version: 0.13.8(typescript@5.3.3)
   '@noble/ed25519':
     specifier: ^2.0.0
     version: 2.0.0
@@ -29,6 +32,9 @@ dependencies:
   swr:
     specifier: ^2.2.4
     version: 2.2.4(react@18.2.0)
+  viem:
+    specifier: ^2.7.6
+    version: 2.7.6(typescript@5.3.3)
 
 devDependencies:
   '@types/node':
@@ -326,8 +332,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@farcaster/core@0.13.7(typescript@5.3.3):
-    resolution: {integrity: sha512-TMvVrlnGAWdHWCe36doFIMT7oj7HdN94rxdME5MDM+EKQyj4E9bgMghh/3il0waMr6PPG5ZlE4rJrhnTYqaIAw==}
+  /@farcaster/core@0.13.8(typescript@5.3.3):
+    resolution: {integrity: sha512-h1WU5IinBwy8f5mGqyAQGxBGuCFPj+kYt/OQquE+898bdlU7LibwsAi2P2qD6Fkb+0GmqloF4m7DIg68wfpfWw==}
     dependencies:
       '@noble/curves': 1.3.0
       '@noble/hashes': 1.3.3
@@ -661,14 +667,14 @@ packages:
     resolution: {integrity: sha512-N1ZhksgwD3OBlwTv3R6KFEcPojl/W4ElJOeCZdi+vuI5QmTFwLq3OFf2zd2ROpKvxFdgZ6hUpb0dx9bVNEwYCA==}
     dependencies:
       '@noble/curves': 1.2.0
-      '@noble/hashes': 1.3.2
+      '@noble/hashes': 1.3.3
       '@scure/base': 1.1.5
     dev: false
 
   /@scure/bip39@1.2.1:
     resolution: {integrity: sha512-Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg==}
     dependencies:
-      '@noble/hashes': 1.3.2
+      '@noble/hashes': 1.3.3
       '@scure/base': 1.1.5
     dev: false
 
@@ -1913,7 +1919,7 @@ packages:
       react: ^18
       react-dom: ^18
     dependencies:
-      '@farcaster/core': 0.13.7(typescript@5.3.3)
+      '@farcaster/core': 0.13.8(typescript@5.3.3)
       '@vercel/og': 0.6.2
       cheerio: 1.0.0-rc.12
       next: 14.1.0(react-dom@18.2.0)(react@18.2.0)
